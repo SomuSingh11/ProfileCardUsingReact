@@ -1,13 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Rajdhani", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f7f7f7;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card {
+  width: 470px;
+  border: 4px solid rgba(171, 148, 122);
+  display: flex;
+  flex-direction: column;
+  margin: 5% auto;
+  border-radius: 20px;
+  box-shadow: 13px 20px 500px 50px #714a1e;
+}
+
+.avatar {
+  width: 100%;
+  object-fit: cover;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.data {
+  padding: 32px;
+  padding-top: 24px;
+}
+
+.skill {
+  padding: 2px 12px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+
+.skillList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 25px;
+  line-height: 25px;
+}
+
+h1 {
+  margin-bottom: 12px;
+}
+
+p {
+  line-height: 28px;
 }
